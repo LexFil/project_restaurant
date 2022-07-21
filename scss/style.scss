@@ -1,0 +1,18 @@
+$top-font: Open Sans;
+$top-color: #ffffff;
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__list-link {
+  font-family: $top-font;
+  color: $top-color;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  &:hover {
+    color: #e8c300;
+  }
+}

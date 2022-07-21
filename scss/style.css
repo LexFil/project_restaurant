@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.menu__list-link {
+  font-family: Open Sans;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none; }
+  .menu__list-link:hover {
+    color: #e8c300; }
